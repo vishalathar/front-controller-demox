@@ -12,7 +12,7 @@
         <property name="hibernate.connection.username">postgres</property>
         <!-- Keep in mind your password may be different -->
         <property name="hibernate.connection.password">postgres</property>
-        <property name="hibernate.default_schema">sophiag</property>
+        <property name="hibernate.default_schema">vishal</property>
   
         <!-- SQL dialect -->
         <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
@@ -24,7 +24,7 @@
   		<property name="hibernate.connection.pool_size">10</property>
   
         <!-- Update database on startup -->
-        <property name="hibernate.hbm2ddl.auto">update</property>
+        <property name="hibernate.hbm2ddl.auto">create</property>
   		<!-- NONE, CREATE, UPDATE, VALIDATE (prod) -->
   
         <!-- Annotated entity classes -->
